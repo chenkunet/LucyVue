@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "title": "许愿券",
+        "message": "许个愿望吧 告诉他的话大概率会实现哦",
+        "image": "/static/wish.jpg"
+    },
+    {
+        "id": 1,
+        "title": "真心话大冒险",
+        "message": "逮住那个家伙就可以随便问问题",
+        "image": "/static/truth.jpg"
+    },
+    {
+        "id": 2,
+        "title": "一份化妆品",
+        "message": "不要指望某个家伙会挑选这种东西",
+        "image": "/static/cosmetic.jpg"
+    },
+    {
+        "id": 3,
+        "title": "一双鞋子",
+        "message": "什么鞋子好呢 运动鞋 高跟鞋 小皮鞋 还是..小凉鞋？",
+        "image": "/static/shose.jpg"
+    },
+    {
+        "id": 4,
+        "title": "哇 是一条蛇",
+        "message": "你被它咬了一口 不如拿回去泡酒补一补",
+        "image": "/static/snake.jpg"
+    },
+    {
+        "id": 5,
+        "title": "零食大礼包",
+        "message": "普普通通的保底零食套餐哦",
+        "image": "/static/snacks.jpg"
+    }
+]
