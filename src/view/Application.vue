@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      title: window.configs.name + "的幸运大抽奖",
+      title: "晓宇" + "的幸运大抽奖",
       giftTosat: false,
       toastTitle: "",
       toastMessage: "",

@@ -41,6 +41,17 @@ export default {
       show: true,
     };
   },
+  mounted(){
+    if (
+      localStorage.getItem("xiaoyu_title") &&
+      localStorage.getItem("xiaoyu_message") &&
+      localStorage.getItem("xiaoyu_image")
+    ) {
+      let times = localStorage.getItem("xiaoyu_times");
+      this.title = "你一共抽取了" + times + "次，最终的选择是";
+      this.show = false;
+    }
+  },
   methods: {
     close() {
       this.$parent.closeToast();
